@@ -35,3 +35,4 @@ If you’re looking to quickly share the URL of a specific object, here’s one 
 3. Click on the Properties button at top right.
 4. Copy the URL from the Link info at top right, which should look 
 ```
+![](https://cdn.havecamerawilltravel.com/photographer/files/2013/03/Amazon-S3-link-to-shared-object-678x295.jpg)
