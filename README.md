@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+Amazon S3 allows you to set per-file permissions to grant read and/or write access. This is nice, but sometimes you just want to share your whole bucket with the world.Luckily, Amazon features bucket policies, which allow you to define permissions for an entire bucket. ~ This example will give read access to Everyone on all files in your bucket.
+### Steps
+1. Sign in to Amazon Web Services and go to your S3 Management Console.
 
-You can use the [editor on GitHub](https://github.com/vasanthbecs/AWS-Troubleshooting/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+2. Select the bucket from the left. At right, click the Properties button if it’s not already expanded.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+3. Go to the Permissions tab and hit the Add Bucket Policy link. (If you’ve previously added a policy, the button will say Edit Bucket Policy instead).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vasanthbecs/AWS-Troubleshooting/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Image](D:\Vasanth\Docker\S3 policy)
