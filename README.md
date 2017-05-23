@@ -26,12 +26,12 @@ Amazon S3 allows you to set per-file permissions to grant read and/or write acce
 	]
     } 
 ```
-###Getting the URL for an Individual Object
+### Getting the URL for an Individual Object
 There are a number of ways to share the contents of the bucket, from an individual URL for an individual object through making the bucket available to host a static website on a custom domain.
 If you’re looking to quickly share the URL of a specific object, here’s one way to find the link:
 ```
-* Sign into the AWS Management Console and go to your S3 dashboard.
-* Navigate to the specific bucket and object.
-* Click on the Properties button at top right.
-* Copy the URL from the Link info at top right, which should look 
+1. Sign into the AWS Management Console and go to your S3 dashboard.
+2. Navigate to the specific bucket and object.
+3. Click on the Properties button at top right.
+4. Copy the URL from the Link info at top right, which should look 
 ```
